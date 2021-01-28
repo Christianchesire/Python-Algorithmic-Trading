@@ -32,15 +32,18 @@ practice interacting with APIs
 https://github.com/public-apis/public-apis
 
 # PROJECT 1: Equal-Weight S&P 500 Screener
-The S&P 500 is the world's most popular stock market index. Many investment funds are benchmarked to the S&P 500. This means that they seek to replicate the performance of this index by owning all the stocks that are held in the index.One of the most important characteristics of the S&P 500 is that it is market capitalization-weighted. This means that larger companies get a correspondingly larger weigth in the index.
+The S&P 500 is the world's most popular stock market index. Many investment funds are benchmarked to the S&P 500. This means that they seek to replicate the performance of this index by owning all the stocks that are held in the index.One of the most important characteristics of the S&P 500 is that it is market capitalization-weighted. This means that larger companies get a correspondingly larger weight in the index.
 
 In the first project we're going to build an alternative version of the S&P 500 Index where each company has the same weighting. 
 
 # PROJECT 2: Quantitative Momentum Screener
 Momentum investing means investing in assets that have increased in price the most. Let's consider an example: Imagine that you have the chioce of investing in two stocks that have had the following returns over the last year: 
-> Apple (AAPL): 35%
-> Microsoft (MSFT): 20%
-A momentum investing strategy would suggest investing in Apple because of its higher recent price return.There are many other nuances to momentum investing strategies that we will explore.
+<ul>
+  <li> Apple (AAPL): 35%<li/>
+  <li> Microsoft (MSFT): 20%<li/>
+<ul/>
+  
+> A momentum investing strategy would suggest investing in Apple because of its higher recent price return.There are many other nuances to  momentum investing strategies that we will explore.
 
 # PROJECT 3: Quantitative Value Screener
 Value investing means investing in stocks that are trading below their percieved intrinsic value. Value investing was popularized by investors like Warren Buffet, Seth Klarman, and Benjamin Graham.
@@ -48,9 +51,10 @@ Value investing means investing in stocks that are trading below their percieved
 Creating algorithmic value investing strategies relies on a concept called multiples.Multiples are calculated by dividing a company's stock price by some measure of the company's worth - like earnings or assets.
 
 Here are a few examples of common multiples used in  value investing:
-> Price-to-earnings ratio
-> Price-to-book-value
-> Price-to-free-cash-flow
-
-Each of the individual multiples used by value investors has its pros and cons. One way to minimize the impact of any specific multiple is by using a composite. A composite is an average of of many different valuation strategies. We'll use a composite of 5 different value metrics in our strategy 
-
+<ul>
+  <li> Price-to-earnings ratio<li/>
+  <li> Price-to-book-value<li/>
+  <li> Price-to-free-cash-flow<li/>
+<ul/>
+  
+Each of the individual multiples used by value investors has its pros and cons. One way to minimize the impact of any specific multiple is by using a composite. A composite is an average of of many different valuation strategies. We'll use a composite of 5 different value metrics in our strategy.
