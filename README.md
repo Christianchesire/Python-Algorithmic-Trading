@@ -38,10 +38,8 @@ In the first project we're going to build an alternative version of the S&P 500 
 
 # PROJECT 2: Quantitative Momentum Screener
 Momentum investing means investing in assets that have increased in price the most. Let's consider an example: Imagine that you have the chioce of investing in two stocks that have had the following returns over the last year: 
-<ul>
   <li> Apple (AAPL): 35%<li/>
   <li> Microsoft (MSFT): 20%<li/>
-<ul/>
   
 > A momentum investing strategy would suggest investing in Apple because of its higher recent price return.There are many other nuances to  momentum investing strategies that we will explore.
 
@@ -51,10 +49,7 @@ Value investing means investing in stocks that are trading below their percieved
 Creating algorithmic value investing strategies relies on a concept called multiples.Multiples are calculated by dividing a company's stock price by some measure of the company's worth - like earnings or assets.
 
 Here are a few examples of common multiples used in  value investing:
-<ul>
   <li> Price-to-earnings ratio<li/>
   <li> Price-to-book-value<li/>
-  <li> Price-to-free-cash-flow<li/>
-<ul/>
-  
+  <li> Price-to-free-cash-flow<li/>  
 Each of the individual multiples used by value investors has its pros and cons. One way to minimize the impact of any specific multiple is by using a composite. A composite is an average of of many different valuation strategies. We'll use a composite of 5 different value metrics in our strategy.
