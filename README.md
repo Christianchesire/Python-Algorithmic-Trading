@@ -51,4 +51,5 @@ Here are a few examples of common multiples used in  value investing:
 * Price-to-earnings ratio
 * Price-to-book-value
 * Price-to-free-cash-flow  
+
 Each of the individual multiples used by value investors has its pros and cons. One way to minimize the impact of any specific multiple is by using a composite. A composite is an average of of many different valuation strategies. We'll use a composite of 5 different value metrics in our strategy.
